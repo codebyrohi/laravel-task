@@ -10,13 +10,15 @@ Composer
 laravel = 8.75
 
 Steps to follow for the setup of project
-1) git clone https://github.com/your-username/laravel-crud-module.git
+1) git clone git clone https://jagtap-rohini@bitbucket.org/laravel-users/users-management-system.git
 
-2) cd laravel-crud-module
+2) cd users-management-system
 
-3) php artisan key:generate
+3) setup .env file
 
-4) php artisan migrate
+4) php artisan key:generate
+
+5) php artisan migrate
 
 5) in case it failed to load the page due to cache , i have created one route to clear cache 
 execute  the below url
