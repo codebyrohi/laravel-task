@@ -10,9 +10,9 @@ Composer
 laravel = 8.75
 
 Steps to follow for the setup of project
-1) git clone git clone https://github.com/codebyrohi/laravel-task.git
+1) git clone https://github.com/codebyrohi/laravel-task.git
 
-2) cd users-management-system
+2) cd laravel-task
 
 3) setup .env file
 
@@ -21,5 +21,7 @@ Steps to follow for the setup of project
 5) create the database
 
 5) php artisan migrate
+
+6)  composer update - to add vendor folder
 
 
